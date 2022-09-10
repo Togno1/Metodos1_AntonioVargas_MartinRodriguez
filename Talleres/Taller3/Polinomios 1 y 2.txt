@@ -1,0 +1,8 @@
+
+1) ¿De qué tipo es el error asociado a la estimación de raíces usando el método de
+Newton-Raphson?
+- se le asocia el error relativo el cual se desarrolla  a partir del valor obtenido de la última iteración, y el valor de la iteración anterior .
+2) ¿Cómo ajustar la precisión para estimar raíces con el método de Newton-Raphson?
+- podemos parar las iteracione cuando el error relativo sea menor a una tolerancia. Para poder ajustar la presición tenemos que hacer más pequeña esa precisión,
+que esta dada por la formula  =
+|Xk+1 − Xk|  / |Xk+1|
